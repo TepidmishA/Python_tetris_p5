@@ -1,0 +1,41 @@
+from p5 import Vector, Color
+
+CELL_STROKE = 2
+BLOCK_SIZE = 40
+EXTRA_ROWS = 2
+
+GAMESPEED_MAX = 50
+GAMESPEED_MIN = 500
+GAMESPEED_DECREASE = 50
+
+TEXT_SIZE = 40
+TEXT_FILL = 50
+
+TABLE_BORDER_STROKE_WEIGHT = 4
+
+PLACE_BLOCK_AFTER_HARDDROP = True
+
+FIELD_POS = Vector(9, 2)
+FIELD_SIZE = Vector(10, 20)
+CANVAS_COLOR = Color(230)
+
+BLOCK_COLOR = {
+    1: Color(50, 230, 255),
+    2: Color(50, 70, 255),
+    3: Color(255, 180, 50),
+    4: Color(255, 250, 50),
+    5: Color(100, 255, 50),
+    6: Color(255, 50, 240),
+    7: Color(255, 50, 50)
+}
+
+BLOCK_TRANSP = 100
+SHADOW_COLOR = {
+    1: Color(50, 230, 255, BLOCK_TRANSP),
+    2: Color(50, 70, 255, BLOCK_TRANSP),
+    3: Color(255, 180, 50, BLOCK_TRANSP),
+    4: Color(255, 250, 50, BLOCK_TRANSP),
+    5: Color(100, 255, 50, BLOCK_TRANSP),
+    6: Color(255, 50, 240, BLOCK_TRANSP),
+    7: Color(255, 50, 50, BLOCK_TRANSP)
+}
